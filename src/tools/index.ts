@@ -16,7 +16,15 @@ export * from "./stake_with_jup";
 export * from "./fetch_price";
 export * from "./send_compressed_airdrop";
 
-export * from "./create_orca_single_sided_whirlpool";export * from "./raydium_create_ammV4";
+export * from "./create_orca_single_sided_whirlpool";
+export * from "./get_all_active_tlds";
+export * from "./get_all_registered_all_domains";
+export * from "./get_domains_on_tld";
+export * from "./get_main_domain";
+export * from "./lookup_owner";
+export * from "./resolve_domain";
+
+export * from "./raydium_create_ammV4";
 export * from "./raydium_create_clmm";
 export * from "./raydium_create_cpmm";
 export * from "./openbook_create_market";
